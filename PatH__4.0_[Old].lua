@@ -1,43 +1,4 @@
---[[
-    Vcs // CM // PastaHook | Final Release.
-    Free to use since its a paste.                                                                                                                                                                                                                                                                              - mf franken paste 2.0
-    About:
-        Voidclient is the 2nd stormy paste created for stormy. Formally known as "Fps taps".
-        It is a paste that is suppost to be a "All In One" Paste Combined.
-        For the last time, This is the final release for this cheat [4.0].
-    Credits:
-        Mexicanhook // DiscontinuedHook
-        Lunarsense 
-        Lunarsense v2
-        Bad's Stormy
-        Floppaware // Rit, Office's Paste
-        Onetapv5 // Omnikonna's Paste
-        Omniware // Also Omnikonna's Paste
-        Stormy.pub
-        Bloxsense.gay // Bloxsense Crack
-        Stormy.Solutions
-        Nixus
-        Vladity // G1fted's Paste
-        Carbon.An
-        Shiba.gang
-        Neverblox
-		Hexagon😔 // sucks ass 
-    Changes:
-        Improved Ragebot
-        Improved Knifebot
-        Improved Forward Track
-        Fixed Kill All
-        Fixed Fog Effects
-        Fixed Anti Kill all
-        Added HPS Kill all
-		Added Enchance Origin
-        Added Anti Kill all lag
-        Added Hitsounds on Warmup
-        Added CFrameV2 Bhop
-        Added Hitpart Wallcheck
-        Added Penetration Wallcheck
-        Removed Around The World
-]]
+
 
 local blood = getsenv(game.Players.LocalPlayer.PlayerGui.Client)blood.splatterBlood = function() end
 if getgenv().OwO then 
