@@ -5438,7 +5438,85 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.Velocity = Vector3.new(0, 0,
 game.Workspace.CurrentCamera.CameraType = "Custom"
 end
 end)
-
+local gun = luas:Sector("Replace Secondary Gun", "Left")
+gun:Element("Button", "P90", nil, function()
+	local gun = "P90"
+	local givefunc
+	for _, v in pairs(getgc()) do
+	local parentScript = rawget(getfenv(v),"script")
+	
+		if type(v) == "function" and parentScript == game:GetService("Players").LocalPlayer.PlayerGui.Client and islclosure(v) and debug.getinfo(v).name == "giveTool" then
+			givefunc = v
+			break
+		end
+	end
+	debug.setupvalue(givefunc, 7, gun) --8 = primary | 7 = secondary 
+end) -- "P90", "AWP", "G3SG1", "AK47", "M4A4", "Scout", "AUG", "SG"
+gun:Element("Button", "SCOUT", nil, function()
+	local gun = "Scout"
+	local givefunc
+	for _, v in pairs(getgc()) do
+	local parentScript = rawget(getfenv(v),"script")
+	
+		if type(v) == "function" and parentScript == game:GetService("Players").LocalPlayer.PlayerGui.Client and islclosure(v) and debug.getinfo(v).name == "giveTool" then
+			givefunc = v
+			break
+		end
+	end
+	debug.setupvalue(givefunc, 7, gun) --8 = primary | 7 = secondary 
+end)
+gun:Element("Button", "AK47", nil, function()
+	local gun = "AK47"
+	local givefunc
+	for _, v in pairs(getgc()) do
+	local parentScript = rawget(getfenv(v),"script")
+	
+		if type(v) == "function" and parentScript == game:GetService("Players").LocalPlayer.PlayerGui.Client and islclosure(v) and debug.getinfo(v).name == "giveTool" then
+			givefunc = v
+			break
+		end
+	end
+	debug.setupvalue(givefunc, 7, gun) --8 = primary | 7 = secondary 
+end)
+gun:Element("Button", "SG", nil, function()
+	local gun = "SG"
+	local givefunc
+	for _, v in pairs(getgc()) do
+	local parentScript = rawget(getfenv(v),"script")
+	
+		if type(v) == "function" and parentScript == game:GetService("Players").LocalPlayer.PlayerGui.Client and islclosure(v) and debug.getinfo(v).name == "giveTool" then
+			givefunc = v
+			break
+		end
+	end
+	debug.setupvalue(givefunc, 7, gun) --8 = primary | 7 = secondary 
+end)
+gun:Element("Button", "AWP", nil, function()
+	local gun = "AWP"
+	local givefunc
+	for _, v in pairs(getgc()) do
+	local parentScript = rawget(getfenv(v),"script")
+	
+		if type(v) == "function" and parentScript == game:GetService("Players").LocalPlayer.PlayerGui.Client and islclosure(v) and debug.getinfo(v).name == "giveTool" then
+			givefunc = v
+			break
+		end
+	end
+	debug.setupvalue(givefunc, 7, gun) --8 = primary | 7 = secondary 
+end)
+gun:Element("Button", "G3SG1", nil, function()
+	local gun = "G3SG1"
+	local givefunc
+	for _, v in pairs(getgc()) do
+	local parentScript = rawget(getfenv(v),"script")
+	
+		if type(v) == "function" and parentScript == game:GetService("Players").LocalPlayer.PlayerGui.Client and islclosure(v) and debug.getinfo(v).name == "giveTool" then
+			givefunc = v
+			break
+		end
+	end
+	debug.setupvalue(givefunc, 7, gun) --8 = primary | 7 = secondary 
+end)
 local custom = luas:Sector("custom models", "Right")
 custom:Element("Button", "Reset Knives", {}, function(tbl)
 	game.ReplicatedStorage.Viewmodels["v_CT Knife"]:Destroy()
