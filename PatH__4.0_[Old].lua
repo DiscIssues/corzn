@@ -5,23 +5,6 @@
         Voidclient is the 2nd stormy paste created for stormy. Formally known as "Fps taps".
         It is a paste that is suppost to be a "All In One" Paste Combined.
         For the last time, This is the final release for this cheat [4.0].
-    Credits:
-        Mexicanhook // DiscontinuedHook
-        Lunarsense 
-        Lunarsense v2
-        Bad's Stormy
-        Floppaware // Rit, Office's Paste
-        Onetapv5 // Omnikonna's Paste
-        Omniware // Also Omnikonna's Paste
-        Stormy.pub
-        Bloxsense.gay // Bloxsense Crack
-        Stormy.Solutions
-        Nixus
-        Vladity // G1fted's Paste
-        Carbon.An
-        Shiba.gang
-        Neverblox
-		Hexagon😔 // sucks ass 
     Changes:
         Improved Ragebot
         Improved Knifebot
@@ -30,7 +13,7 @@
         Fixed Fog Effects
         Fixed Anti Kill all
         Added HPS Kill all
-		Added Enchance Origin
+	Added Enchance Origin
         Added Anti Kill all lag
         Added Hitsounds on Warmup
         Added CFrameV2 Bhop
