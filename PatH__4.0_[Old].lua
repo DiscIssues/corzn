@@ -1,5 +1,4 @@
 
-
 local blood = getsenv(game.Players.LocalPlayer.PlayerGui.Client)blood.splatterBlood = function() end
 if getgenv().OwO then 
 		print("nice try")
@@ -5764,7 +5763,7 @@ aimbot:Element("Jumbobox", "resolver", {options = {"pitch", "roll", "animation"}
 aimbot:Element("Dropdown", "forward tracking", {options = {"off", "forward", "predictive", "reversed"}})
 aimbot:Element("Slider", "retardation amount", {min = 1, max = 100, default = 5})
 aimbot:Element("Toggle", "enchance player origin")
-aimbot:Element("Dropdown", "origin modifier type", {options = {"normal", "wide-normal", "early", "extended"}})
+aimbot:Element("Dropdown", "origin modifier type", {options = {"normal", "early", "extended"}})
 
 aimbot:Element('Slider', 'penetration', {min = 1, max = 100, default = 1})
 aimbot:Element("Toggle", "delay shot")
@@ -8070,9 +8069,7 @@ if workspace:FindFirstChild("Map") and Client.gun ~= nil and Client.gun ~= "none
 			Origin = values.rage.aimbot.origin.Dropdown == "character" and LocalPlayer.Character.LowerTorso.Position + Vector3.new(0, 2.5, 0) or CamCFrame.p
 		elseif values.rage.aimbot["enchance player origin"].Toggle then
 			if values.rage.aimbot["origin modifier type"].Dropdown == "normal" then
-				Origin = values.rage.aimbot.origin.Dropdown == "character" and LocalPlayer.Character.LowerTorso.Position + Vector3.new(2.0, 3.0, 2.0) or CamCFrame.p
-			elseif values.rage.aimbot["origin modifier type"].Dropdown == "wide-normal" then
-				Origin = values.rage.aimbot.origin.Dropdown == "character" and LocalPlayer.Character.LowerTorso.Position + Vector3.new(3.0, 2.5, 3.0) or CamCFrame.p	 
+				Origin = values.rage.aimbot.origin.Dropdown == "character" and LocalPlayer.Character.LowerTorso.Position + Vector3.new(2.0, 3.0, 2.0) or CamCFrame.p 
 			elseif values.rage.aimbot["origin modifier type"].Dropdown == "early" then
 				Origin = values.rage.aimbot.origin.Dropdown == "character" and LocalPlayer.Character.LowerTorso.Position + Vector3.new(2.7, 3.0, 2.7) or CamCFrame.p
 			elseif values.rage.aimbot["origin modifier type"].Dropdown == "extended" then
@@ -8798,9 +8795,7 @@ if not checkcaller() or Filter then
 			Origin = values.rage.aimbot.origin.Dropdown == "character" and LocalPlayer.Character.LowerTorso.Position + Vector3.new(0, 2.5, 0) or CamCFrame.p
 		elseif values.rage.aimbot["enchance player origin"].Toggle then
 			if values.rage.aimbot["origin modifier type"].Dropdown == "normal" then
-				Origin = values.rage.aimbot.origin.Dropdown == "character" and LocalPlayer.Character.LowerTorso.Position + Vector3.new(2.0, 3.0, 2.0) or CamCFrame.p
-			elseif values.rage.aimbot["origin modifier type"].Dropdown == "wide-normal" then
-				Origin = values.rage.aimbot.origin.Dropdown == "character" and LocalPlayer.Character.LowerTorso.Position + Vector3.new(3.0, 2.5, 3.0) or CamCFrame.p	 
+				Origin = values.rage.aimbot.origin.Dropdown == "character" and LocalPlayer.Character.LowerTorso.Position + Vector3.new(2.0, 3.0, 2.0) or CamCFrame.p 
 			elseif values.rage.aimbot["origin modifier type"].Dropdown == "early" then
 				Origin = values.rage.aimbot.origin.Dropdown == "character" and LocalPlayer.Character.LowerTorso.Position + Vector3.new(2.7, 3.0, 2.7) or CamCFrame.p
 			elseif values.rage.aimbot["origin modifier type"].Dropdown == "extended" then
