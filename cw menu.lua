@@ -27,7 +27,7 @@ function library:console(func)
     func(("\n"):rep(57))
 end
 
-library.signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/Quenty/NevermoreEngine/version2/Modules/Shared/Events/Signal.lua"))()
+library.signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/DiscIssues/80carrots/main/signal.lua"))()
 
 local local_player = game:GetService("Players").LocalPlayer
 local mouse = local_player:GetMouse()
